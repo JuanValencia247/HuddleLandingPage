@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(257deg, 40%, 49%);
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-width: 900px) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: unset;
+  }
+}
+
+header {
+  margin: 34px 40px 54px 40px;
+}
+@media (min-width: 900px) {
+  header {
+    margin: 60px 80px 40px 80px;
+  }
+}
+header .nav-container__image {
+  width: 120px;
+}
+@media (min-width: 900px) {
+  header .nav-container__image {
+    width: 200px;
+  }
+}
+
+main .section-container {
+  margin: 36px;
+  color: white;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  main .section-container {
+    display: flex;
+    margin: 80px;
+  }
+}
+main .section-container__cart1-image {
+  width: 100%;
+  margin-bottom: 60px;
+}
+@media (min-width: 900px) {
+  main .section-container__cart1-image {
+    width: 695px;
+    height: 495;
+  }
+}
+@media (min-width: 900px) {
+  main .section-container__cart2 {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+}
+main .section-container__cart2-title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+@media (min-width: 900px) {
+  main .section-container__cart2-title {
+    font-size: 2.1em;
+    margin-bottom: 30px;
+  }
+}
+main .section-container__cart2-description {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+  font-size: 0.93em;
+  line-height: 28px;
+  font-weight: 100;
+}
+@media (min-width: 900px) {
+  main .section-container__cart2-description {
+    font-size: 0.88em;
+    margin-bottom: 20px;
+  }
+}
+main .section-container__cart2-button {
+  width: 200px;
+  height: 42px;
+  border-style: none;
+  margin-bottom: 65px;
+  color: hsl(257deg, 40%, 49%);
+  border-radius: 20px;
+  font-weight: 500;
+  transition: 200ms;
+  cursor: pointer;
+}
+@media (min-width: 900px) {
+  main .section-container__cart2-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 180px;
+  }
+}
+main .section-container__cart2-button:hover {
+  background-color: hsl(300deg, 69%, 71%);
+  color: white;
+  transition: 200ms;
+  cursor: pointer;
+}
+main .section-container__cart2-icons {
+  color: white;
+}
+@media (min-width: 900px) {
+  main .section-container__cart2-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -20px;
+  }
+}
+main .section-container__cart2-icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 200ms;
+}
+@media (min-width: 900px) {
+  main .section-container__cart2-icon {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+}
+main .section-container__cart2-icon:hover {
+  border: 1px solid hsl(300deg, 69%, 71%);
+  color: hsl(300deg, 69%, 71%);
+  transition: 200ms;
+}
+
+.attribution {
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(0deg, 0%, 70%);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
